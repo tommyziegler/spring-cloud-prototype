@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        prefix: /config-server
+        git:
+          uri: ${user.dir}
+          search-paths: config-server

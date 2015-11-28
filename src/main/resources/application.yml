@@ -1,0 +1,12 @@
+info:
+  app:
+    name: Spring-Cloud-Prototype
+    version: @project.version@
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+management:
+  context-path: /actuator-endpoint

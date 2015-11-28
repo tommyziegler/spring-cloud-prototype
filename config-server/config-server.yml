@@ -1,0 +1,15 @@
+com:
+  tommyziegler:
+    server01: http://localhost:8083
+
+    cloud-server:
+      links:
+        rel1:
+          href: ${com.tommyziegler.server01}/rel1
+          method: GET
+        rel2:
+          href: ${com.tommyziegler.server01}/rel2
+          method: GET
+        rel3:
+          href: ${com.tommyziegler.server01}/rel3
+          method: POST

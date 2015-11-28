@@ -1,0 +1,11 @@
+.idea
+*.iml
+target
+.settings
+.classpath
+.project
+*.swp
+.DS_Store
+nb-configuration.xml
+coverage-error.log
+

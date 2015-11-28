@@ -1,0 +1,17 @@
+package com.tommyziegler;
+
+import com.tommyziegler.properties.SpringCloudProperties;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.cloud.config.server.EnableConfigServer;
+
+@SpringBootApplication
+@EnableConfigServer
+@EnableConfigurationProperties(SpringCloudProperties.class)
+public class SpringCloudApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringCloudApplication.class, args);
+    }
+}
