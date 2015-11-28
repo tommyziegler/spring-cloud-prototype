@@ -10,6 +10,6 @@ com:
         rel2:
           href: ${com.tommyziegler.server01}/rel2
           method: GET
-        rel3:
-          href: ${com.tommyziegler.server01}/rel3
-          method: POST
+        # rel3:
+        #   href: ${com.tommyziegler.server01}/rel3
+        #   method: GET
